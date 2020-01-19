@@ -1,0 +1,45 @@
+html{
+  background-color:#FFFfE0;
+  /*背景颜色*/
+}
+
+body{
+  width:1080px;
+  /*宽度1080px*/
+  margin: 100px auto;
+  /*页边距：上下0 左右对称*/
+  background-color:red;
+  padding: 0 20px 20px 20px;
+  /*内边距：上、右、下、左*/
+  border:5px solid black;
+  /*边框：5px实体黑色*/
+}
+
+h1 {
+  margin:0;
+  padding:20px 0;
+  color:yellow;
+  /*颜色：红*/
+  font-size: 60px;
+  /*字体大小*/
+  text-align: center;
+  /*文本对齐：居中*/
+  text-shadow:3px 3px 1px black
+  /*文本阴影：水平偏移值、垂直偏移值、模糊半径、基色*/
+}
+
+img{
+  display:block;
+  /*展示：块。给予块级行为，使其可以使用外边框。*/
+  margin: 0 auto;
+  width:1080    px;
+}
+
+p, li {
+  font-size: 16px;
+  /*字体大小*/
+  line-height: 2;
+  /*行间距*/
+  letter-spacing: 1 px;
+  /*字间距*/
+}
